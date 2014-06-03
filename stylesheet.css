@@ -1,0 +1,506 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body{
+  width:100%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.masthead {
+ /* width: 1280px;*/
+ /* height: 200px;*/
+  padding: 4em 0 6em 0;
+  background: #fff;
+}
+
+.masthead1 {
+ /* width: 1280px;*/
+ /* height: 200px;*/
+  padding: 4em 0 6em 0;
+  background: #fff;
+  border-bottom: dotted 1px #888;
+}
+
+.name{
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 900;
+  font-weight:bold;
+}
+
+.masthead a:hover {
+  color: #ff7600;
+}
+
+.name:hover {
+  color: #ff7600;
+}
+
+.menu_tag:hover{
+  color: #ff7600;
+}
+
+.title {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #333;
+  float: right;
+  margin: 0 0 0 0;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+  height: 640px;
+  margin: -9px 0 0 0;
+}
+
+.rowhalf1 {
+  display: inline-block;
+  width: 50%;
+  height: 640px;
+  float: left;
+  background-color: #ff7600;
+  text-align: center;
+}
+
+.rowhalf1:hover {
+  opacity: 0.7;
+}
+
+.work {
+display: inline-block;
+font-family: 'Varela Round', sans-serif;
+font-size: 80px;
+line-height: 1em;
+letter-spacing: 1.5px;
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+margin-top:260px;
+}
+
+.rowhalf2 {
+  display: inline-block;
+  width: 50%;
+  height: 640px;
+  float: right;
+}
+
+.columnhalf1 {
+  display: inline-block;
+  width: 100%;
+  height: 320px;
+  float: right;
+  background-color: #04819E;
+  text-align: center;
+}
+
+.columnhalf1:hover {
+  opacity: 0.7;
+}
+
+.columnhalf2 {
+  display: inline-block;
+  width: 100%;
+  height: 320px;
+  float: right;
+  background-color: #0F4DA8;
+  text-align: center;
+}
+
+.columnhalf2:hover {
+  opacity: 0.7;
+}
+
+.about {
+  display: inline-block;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 60px;
+  line-height: 1em;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin-top:140px;
+}
+
+.contact {
+  display: inline-block;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 60px;
+  line-height: 1em;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 140px;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  float: right;
+  margin-top:10px;
+
+
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 0 0 3.6em;
+}
+
+.menu a {
+  display: inline-block;
+}
+
+.menu_tag {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #333;
+  float: right;
+  margin: 0 0 0 0;
+}
+
+.notetaker {
+  width: 100%;
+  height: 560px;
+  border-bottom: dotted 1px #888;
+}
+
+.notetaker_desc {
+  width: 50%;
+  float: left;
+  padding: 0 0 3em 0;
+}
+
+.notetaker_desc h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  margin: 1em 0 0.2em 0;
+  letter-spacing: 2px;
+}
+
+#note_p1 {
+  margin: 1.2em 0 0.2em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+}
+
+#note_p2  {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 0.5em;
+}
+
+#note_p3 {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 1.5em;
+}
+
+.note_live {
+  padding: 0.7em 1.2em;
+  border: solid 2px #ff7600;
+  font-family: 'Lato', sans-serif;
+  color: #ff7600;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.note_live:hover {
+  background: #ff7600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.note_pic {
+  float: right;
+  width: 50%;
+  margin: 7.5em 0;
+  height: 270px;
+  text-align: center;
+}
+
+/*##############SplitMAte############*/
+
+.splitmate {
+  width: 100%;
+  height: 620px;
+  border-bottom: dotted 1px #888;
+}
+
+.splitmate_desc {
+  width: 50%;
+  float: right;
+  padding: 0 0 3em 0;
+}
+
+.splitmate_desc h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  margin: 1em 0 0.2em 0;
+  letter-spacing: 2px;
+}
+
+#split_p1 {
+  margin: 1.2em 0 0.2em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+}
+
+#split_p2 {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 0.5em;
+}
+
+#split_p3 {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 1.5em;
+}
+
+.split_live {
+  padding: 0.7em 1.2em;
+  border: solid 2px #ff7600;
+  font-family: 'Lato', sans-serif;
+  color: #ff7600;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.split_live:hover {
+  background: #ff7600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.split_pic {
+  float: left;
+  width: 50%;
+  margin: 7.5em 0;
+  height: 270px;
+  text-align: center;
+}
+
+/*######### Common Fibers #######*/
+
+.common {
+  width: 100%;
+  height: 560px;
+}
+
+.common_desc {
+  width: 50%;
+  float: left;
+  padding: 0 0 3em 0;
+}
+
+.common_desc h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  margin: 1em 0 0.2em 0;
+  letter-spacing: 2px;
+}
+
+#common_p1 {
+  margin: 1.2em 0 0.2em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+}
+
+#common_p2 {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 0.5em;
+}
+
+#common_p3 {
+  margin: 0.2em 0 0.9em 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  margin-bottom: 1.5em;
+}
+
+.common_live {
+  padding: 0.7em 1.2em;
+  border: solid 2px #ff7600;
+  font-family: 'Lato', sans-serif;
+  color: #ff7600;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.common_live:hover {
+  background: #ff7600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.common_pic {
+  float: right;
+  width: 50%;
+  margin: 7.5em 0;
+  height: 270px;
+  text-align: center;
+}
+
+.about_row {
+  display: inline-block;
+  width: 100%;
+  height: 640px;
+  margin: -9px 0 0 0;
+  background: #5ED0BD;
+}
+
+.about_desc  {
+  width: 60%;
+  height: 500px;
+  background: #fff;
+  /*padding: 4em 5em 5em 5em;*/
+  float: right;
+  margin-right: 45px;
+  margin-top: 75px;
+}
+
+.contact_white_div  {
+  width: 60%;
+  height: 400px;
+  background: #fff;
+  /*padding: 4em 5em 5em 5em;*/
+  float: right;
+  margin-right: 45px;
+  margin-top: 75px;
+}
+
+.about_h1 {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 1em 1.2em 0;
+}
+
+.about_p1  {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  /*letter-spacing: 1px;*/
+  font-weight: bold;
+  margin: 0 1.6em 0em;
+}
+
+.about_p2  {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  /*letter-spacing: 1px;*/
+  font-weight: bold;
+  margin: 0 1.6em 1em;
+}
+
+.about_p1 p {
+  margin-bottom: 0px;
+}
+
+.skills_desc {
+  width: 60%;
+  height: 530px;
+  background: #fff;
+  /*padding: 4em 5em 5em 5em;*/
+  float: left;
+  margin-left: 45px;
+  margin-top: 75px;
+}
+
+.languages h2, .frameworks h2, .testing h2, .method h2 {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: italic;
+  margin: 0.5em 2em 0;
+  color: black;
+}
+
+.languages p, .frameworks p, .testing p, .method p {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  margin: 0.3em 10em 0.3em;
+  line-height: 1.3em;
+}
+
+.contact_row {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  margin: -9px 0 0 0;
+  background: #66A3D2;
+}
+
+
+.content_list{
+  margin-bottom: 2em;
+}
+
+.content_list h2:hover {
+  color: #ff7600
+}
+
+.cont h2 {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: italic;
+  margin: 0.5em 0.5em 0;
+  color: black;
+}
