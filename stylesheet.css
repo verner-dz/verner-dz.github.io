@@ -243,6 +243,7 @@ ul {
   text-decoration: none;
 }
 
+
 .note_pic {
   float: right;
   width: 50%;
@@ -505,6 +506,6 @@ ul {
   color: black;
 }
 
-.split_image:hover {
+.split_image:hover, .note_image:hover {
   opacity: 0.7;
 }
